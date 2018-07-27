@@ -1,0 +1,78 @@
+{
+  "dist/module/demo.html": {
+    "resources": [
+      "dist/static/js/module/demo.fa704d8ebce1a62ed353.js",
+      "dist/static/js/vendor.0118d3c4b7cc570ad565.js",
+      "dist/static/js/manifest.32d132454ef5f1b74ab0.js",
+      "dist/static/js/manifest.f0aa5a0f07abd4514f57.js",
+      "dist/static/js/module/demo.cefc4cd9453d6950e49b.js",
+      "dist/static/js/manifest.9ef908b46ce786a69c30.js",
+      "dist/static/js/module/demo.4573f3c045ed8996f9ad.js",
+      "dist/static/js/manifest.f8e3fab9ae41535305ea.js",
+      "dist/static/js/module/demo.f5701acccbea685ee47c.js",
+      "dist/static/fonts/mui.ttf",
+      "dist/static/css/mui.min.css",
+      "dist/static/js/module/demo.a082e601833cf50f2729.js",
+      "dist/static/js/manifest.44ec90da9c857058c9d1.js"
+    ],
+    "refer": []
+  },
+  "dist/module/home.html": {
+    "resources": [
+      "dist/static/js/module/home.2b8521c5bb2da310f920.js",
+      "dist/static/css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "dist/module/index.html": {
+    "resources": [
+      "dist/module/home.html",
+      "dist/static/js/module/index.5745375551acc13a312d.js",
+      "dist/static/js/vendor.97c62ccb92805e241a27.js",
+      "dist/static/fonts/mui.ttf",
+      "dist/static/js/manifest.94df5be60606f2d03eae.js",
+      "dist/static/css/mui.min.css",
+      "dist/static/js/module/index.cc3f2916113a782a7093.js",
+      "dist/static/js/manifest.617bbf3ae7357d02ccbc.js",
+      "dist/static/js/manifest.9446869da44e1a70c8c8.js",
+      "dist/static/js/module/index.8159e8b668f9f2d8dc4b.js",
+      "dist/static/js/manifest.8826edb63d1ae683ef28.js",
+      "dist/static/js/module/index.cc575b13e20f0e7e2204.js",
+      "dist/static/js/module/index.79410e04055ac7c76159.js",
+      "dist/static/js/manifest.1526f155d5e4e2ef41f6.js",
+      "dist/static/js/manifest.5737de066c2cd7c8db41.js",
+      "dist/static/js/module/index.c087731ac818c0d4670b.js",
+      "dist/static/js/module/index.acc4a8476198faaa6f60.js",
+      "dist/static/js/manifest.438981731ea49b596baf.js",
+      "dist/static/js/manifest.76619d6be6f19cb3f110.js",
+      "dist/static/js/module/index.52036c4b8cce7da6839f.js",
+      "dist/static/js/vendor.9ac95682ff9871b81049.js",
+      "dist/static/js/module/index.885de789f3dd13667b7c.js",
+      "dist/static/js/manifest.ca6d0de1de6a144527e7.js"
+    ],
+    "refer": [
+      "dist/module/home.html",
+      "dist/module/shopp.html"
+    ]
+  },
+  "dist/module/shopp.html": {
+    "resources": [
+      "dist/static/js/module/shopp.5730080606defdec819c.js",
+      "dist/static/css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "dist/module/news.html": {
+    "resources": [
+      "dist/static/js/vendor.9ac95682ff9871b81049.js",
+      "dist/static/js/module/news.10bd8415dce031ab5c10.js",
+      "dist/static/css/module/news.826514fa0fd9acd34172f15b6438872b.css",
+      "dist/static/css/iconfont2.css",
+      "dist/static/js/manifest.ca6d0de1de6a144527e7.js",
+      "dist/static/css/mui.min.css",
+      "dist/static/js/manifest.0a498c1dafb2c7e2169f.js",
+      "dist/static/js/module/news.e8551e5c32cae9a98b25.js"
+    ],
+    "refer": []
+  }
+}

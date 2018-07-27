@@ -1,0 +1,28 @@
+@import '../main.scss';
+.app-btn {
+    border: 1px solid $garyColor;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: $garyColor;
+    // 主色
+    &-main {
+        @extend .app-btn;
+        background-color: $mainBackGroundColor;
+        border-color: $mainBackGroundColor;
+        color: #FFFFFF;
+        &:active {
+            // 按下
+            background-color: $mainBackGroundColor * 0.9 !important;
+            border-color: $mainBackGroundColor * 0.9 !important;
+        }
+        &-ghost:extend(.app-btn) {
+            border-color: $mainBackGroundColor !important;
+            color: $mainBackGroundColor;
+            &:active {
+                // 按下
+                background-color: #F4F8FB !important;
+                color: $mainBackGroundColor * 0.9 !important;
+            }
+        }
+    }
+}

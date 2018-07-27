@@ -1,0 +1,81 @@
+@import './main.scss';
+
+@import './module/index.scss';
+
+@for $i from 20 through 44{
+    .app-font-size-#{$i} {
+        font-size: $i / 2 * 1px !important;
+    }
+    [data-dpr="2"] .app-font-size-#{$i}  {
+        font-size: $i * 1px !important;
+    }
+    [data-dpr="3"] .app-font-size-#{$i}  {
+        font-size: $i / 2 * 3 * 1px !important; 
+    }
+}
+
+
+@for $i from 1 through 10 {
+    .app-ellipsis-#{$i} {
+        display: -webkit-box; 
+        overflow: hidden;
+        white-space: normal!important;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        -webkit-line-clamp: $i;
+        -webkit-box-orient: vertical;
+    }
+}
+
+
+html {
+    font-size: 10px;
+}
+
+* {
+    color: $blackColor;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+.app-bar {
+    background-color: $mainBackGroundColor;
+    color: $mainTextColor;
+    h1 {
+        color: $mainTextColor;
+    }
+}
+
+.app-color-black {
+    color: $blackColor;
+}
+
+.app-color-gray {
+    color: $garyColor;
+}
+
+.app-color-main {
+    color: $mainBackGroundColor;
+}
+
+.app-color-yellow {
+    color: $yellowColor;
+}
+
+.app-color-main-back {
+    background-color: $mainBackGroundColor;
+}
+
+
+.app-color-333333{
+    color: #333333 !important;
+}
+
+
+
+.mui-content{
+    padding-bottom: 55px;
+}
